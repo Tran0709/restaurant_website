@@ -133,3 +133,5 @@ footer b{color:var(--gold)}
   section{padding:64px 0}
 }
 @media (max-width:480px){.gal{columns:2;column-gap:8px}.gal img{margin-bottom:8px}.dgrid{gap:10px}.dish div{padding:10px}.dish b{font-size:15px}.cat b{font-size:18px}.stat{gap:18px}.stat div b{font-size:26px}}
+a.dish{display:block;color:inherit;text-decoration:none}
+.cat:focus-visible,.dish:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
